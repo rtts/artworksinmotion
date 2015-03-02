@@ -1,0 +1,16 @@
+<!doctype html> 
+<html>
+<head>
+<title>Preview a video</title>
+</head>
+<body>
+<iframe width="853" height="480" src="http://www.youtube.com/embed/{{ id }}" frameborder="0" allowfullscreen></iframe>
+<form action="http://www.artworksinmotion.com/manage/confirm.cgi" method="POST">
+<input type="hidden" name="id" value="{{ id }}" />
+slug: <input type="text" name="slug" /><br/>
+title: <input type="text" name="title" /><br/>
+description: <textarea name="description"></textarea><br/>
+<input type="submit" value="Add to playlist!" />
+</form>
+</body>
+</html>

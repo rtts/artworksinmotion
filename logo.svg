@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="754"
+   height="130"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/jj/projects/ideas/artworksinmotion.png"
+   inkscape:export-xdpi="69.230766"
+   inkscape:export-ydpi="69.230766">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5977">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5979" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5981" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5977"
+       id="radialGradient5985"
+       cx="413.91879"
+       cy="255.62648"
+       fx="413.91879"
+       fy="255.62648"
+       r="326.06573"
+       gradientTransform="matrix(2.2636006,1.0396199e-7,-5.8191243e-8,1.2670182,-550.38112,86.04875)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5977"
+       id="radialGradient6011"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2636006,1.0396199e-7,-5.8191243e-8,1.2670182,-529.88365,-257.06395)"
+       cx="413.91879"
+       cy="255.62648"
+       fx="413.91879"
+       fy="255.62648"
+       r="326.06573" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="376.26741"
+     inkscape:cy="-234.27336"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1050"
+     inkscape:window-height="1680"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:snap-page="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-99.5,-49.06218)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text5991"
+       y="129.24948"
+       x="125.49748"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6011);fill-opacity:1;stroke:none;font-family:Gruppo;-inkscape-font-specification:Gruppo"
+       xml:space="preserve"><tspan
+         dx="0 0 0 -1 0 0 -2"
+         dy="0 0 0 -2 0 0 -8"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#radialGradient6011);fill-opacity:1;font-family:Earwig Factory;-inkscape-font-specification:Earwig Factory"
+         y="129.24948"
+         x="125.49748"
+         id="tspan5993"
+         sodipodi:role="line"><tspan
+   rotate="0 7.6391215 0"
+   dx="0 -2 0"
+   id="tspan5995"
+   style="font-size:90px;fill:url(#radialGradient6011);fill-opacity:1"
+   dy="0 5 1"><tspan
+   style="font-size:110px;fill:url(#radialGradient6011)"
+   id="tspan6019"
+   dy="1">A</tspan>rt</tspan>w<tspan
+   dx="-2"
+   dy="13"
+   id="tspan5997"
+   style="font-size:60px;fill:url(#radialGradient6011);fill-opacity:1">o</tspan><tspan
+   rotate="5.7293415 0"
+   dy="-10"
+   dx="1"
+   id="tspan5999"
+   style="font-size:90px;fill:url(#radialGradient6011);fill-opacity:1">r</tspan><tspan
+   style="font-size:90px;fill:url(#radialGradient6011)"
+   id="tspan6013"
+   dx="0"
+   rotate="352.99744 0">k</tspan><tspan
+   dy="13"
+   dx="-3"
+   id="tspan6001"
+   style="font-size:90px;fill:url(#radialGradient6011);fill-opacity:1">s</tspan><tspan
+   rotate="0 0 348.54199 0"
+   dx="1 -4 2"
+   dy="2 -18 12"
+   id="tspan6003"
+   style="font-size:60px;fill:url(#radialGradient6011);fill-opacity:1"><tspan
+   style="font-size:60px;fill:url(#radialGradient6011)"
+   id="tspan6015"
+   dx="0 5"> i</tspan>n</tspan><tspan
+   dy="-2 -8"
+   dx="-13 -9"
+   id="tspan6005"
+   style="font-size:130px;fill:url(#radialGradient6011);fill-opacity:1"
+   rotate="0 0.88145614 0"> M</tspan><tspan
+   rotate="0 0 7.2740363e-06 0 349.49683 0"
+   dx="-2 0 0 0 1"
+   dy="19 0 -9 21 -10"
+   id="tspan6007"
+   style="font-size:60px;fill:url(#radialGradient6011);fill-opacity:1">o<tspan
+   dy="-12"
+   dx="0"
+   id="tspan6009"
+   style="font-size:90px;fill:url(#radialGradient6011);fill-opacity:1">t</tspan>ion</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Gruppo;-inkscape-font-specification:Gruppo"
+       x="-86.713203"
+       y="258.26218"
+       id="text3008"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-86.713203"
+         y="258.26218"
+         id="tspan3012"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">A compilation of mindboggling and heartwarming visual artworks</tspan></text>
+  </g>
+</svg>

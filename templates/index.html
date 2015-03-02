@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title>Artworks in Motion</title>
+<link rel="stylesheet" type="text/css" href="/main.css" />
+<script type="text/javascript">
+function toggle() {
+  document.getElementById('suggestform').style.display='block'
+  document.getElementById('showform').style.display='none'
+}
+</script>
+</head>
+<body>
+<img src="logo.png" id="logo" alt="Artworks in Motion" width="693" height="79" />
+<iframe width="853" height="480" src="http://www.youtube.com/embed/videoseries?list=PL28E746888CC3F12F&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
+
+<center><a href="#" class="myButton" onClick="toggle(); return false" id="showform">Suggest more art!</a></center>
+
+<form id="suggestform" action="/suggest.cgi" method="POST">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td class="left">Video URL: </td>
+  <td><input type="text" name="url" /></td>
+</tr>
+<tr>
+  <td class="left">Why?</td>
+  <td><textarea name="description" rows="3" cols="30" /></textarea></td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td align="right"><input type="submit" class="myButton" value="Submit" /></td>
+</tr>
+</table>
+</form>
+
+<script type="text/javascript">
+document.getElementById('suggestform').style.display='none'
+</script>
+<h1>Videos:</h1>
+<ol>
+{% for video in videos %}
+<li>
+<a href="http://www.artworksinmotion.com/{{ video.slug }}">
+<img src="http://img.youtube.com/vi/{{ video.yt_id }}/hqdefault.jpg" alt="{{ video.title }}" width="240px" height="180px">
+</a>
+<div class='video_text_background'><div class='title'><a href="http://www.artworksinmotion.com/{{ video.slug }}">{{ video.title }}</a></div></div> 
+</li>
+{% endfor %}
+</ol>
+<div id="footer">
+  Artworks in Motion is a project by <a href="http://r2src.com/"><img border="0" src="http://r2src.com/logo_small.png" style="vertical-align: top"> Return to the Source</a>
+</div>
+</body>
+</html>
