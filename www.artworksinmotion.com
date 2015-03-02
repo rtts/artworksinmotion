@@ -5,5 +5,5 @@ server {
 
 server {
   server_name www.artworksinmotion.com;
-  root /home/origin/artworksinmotion/site;
+  root /home/www/artworksinmotion;
 }
