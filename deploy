@@ -1,6 +1,24 @@
 #!/usr/bin/env python
 # coding: utf8
-from fabric.api import local
-from fabric.colors import green
-local('rsync -av --delete site/ www@rtts.eu:artworksinmotion')
-print green('Let’s watch some art!', bold=True)
+from fabric.api import *
+from fabric.colors import red
+
+project_name = 'artworksinmotion'
+env.host_string = 'www.artworksinmotion.com'
+
+# Transfer files
+print(red('\nTransferring files...', bold=True))
+env.user = "www"
+local('rsync -av --delete site/ %s@%s:%s' % (env.user, env.host_string, project_name))
+
+# Place config file
+print(red('\n(Re)placing nginx config file...', bold=True))
+env.user = 'origin'
+put('nginx.conf', '/etc/nginx/conf.d/%s.conf' % project_name, use_sudo=True)
+
+# Reload
+print(red('\nReloading', bold=True))
+sudo('systemctl reload nginx')
+run('systemctl status -n0 nginx')
+
+print red('Let’s watch some art!\n', bold=True)
