@@ -19,6 +19,6 @@ put('nginx.conf', '/etc/nginx/conf.d/%s.conf' % project_name, use_sudo=True)
 # Reload
 print(red('\nReloading', bold=True))
 sudo('systemctl reload nginx')
-run('systemctl status -n0 nginx')
+run('systemctl status -ln3 nginx')
 
 print red('Let’s watch some art!\n', bold=True)
